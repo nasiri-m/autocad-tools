@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="assets/logo.png" width="220" alt="AutoCAD Tools Logo">
+</p>
+
+<h1 align="center">AutoCAD Tools</h1>
+
+Collection of AutoLISP and Visual LISP tools for architects and AutoCAD power users.
+
 # AutoCAD Tools
 
 A collection of AutoLISP tools, utilities, and workflow enhancements for architects, designers, and CAD professionals.
