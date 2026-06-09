@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "manifest_version": "1.0.0",
+    "published": 1780909636,
+    "platform": "AutoCAD",
+
+    "developer": {
+      "name": "Masoud Nasiri",
+      "tagline": "Architect building tools for architects",
+
+      "contact": {
+        "email": "nasiri-m@outlook.com",
+        "website": "https://nasiri-m.com",
+        "github": "https://github.com/nasiri-m"
+      }
+    }
+  },
+
+  "servers": [
+    "https://raw.githubusercontent.com/nasiri-m/autocad_tools/refs/heads/main",
+    "https://nasiri-m.com/autocad_tools",
+    "https://nasiri-m.ir/autocad_tools"
+  ],
+
+  "categories": [
+    {
+      "id": "system",
+      "label": "System"
+    },
+    {
+      "id": "drafting",
+      "label": "Drafting"
+    },
+    {
+      "id": "annotation",
+      "label": "Annotation"
+    },
+    {
+      "id": "layers",
+      "label": "Layer Management"
+    },
+    {
+      "id": "blocks",
+      "label": "Blocks"
+    },
+    {
+      "id": "utilities",
+      "label": "Utilities"
+    }
+  ],
+
+  "packages": [
+    {
+      "id": "nkit",
+
+      "type": "manager",
+
+      "name": "nKit",
+
+      "version": "1.0.0",
+
+      "release_date": 1780909636,
+
+      "status": "stable",
+
+      "featured": true,
+
+      "category": "system",
+
+      "tags": [
+        "manager",
+        "package-manager",
+        "autoload"
+      ],
+
+      "commands": [
+        "NKIT"
+      ],
+
+      "suggested_alias": "NK",
+
+      "description": "Package manager and tool hub for AutoCAD Tools.",
+
+      "min_acad_version": 2018,
+
+      "max_acad_version": null,
+
+      "dependencies": [],
+
+      "path": "packages/nkit",
+
+      "changelog": {
+        "1.0.0": "Initial release."
+      }
+    },
+
+    {
+      "id": "persian-text-fix",
+
+      "type": "tool",
+
+      "name": "Persian Text Fix",
+
+      "version": "1.3.0",
+
+      "release_date": 1780909636,
+
+      "status": "stable",
+
+      "featured": true,
+
+      "category": "annotation",
+
+      "tags": [
+        "persian",
+        "farsi",
+        "rtl",
+        "text"
+      ],
+
+      "commands": [
+        "PTEXTFIX"
+      ],
+
+      "suggested_alias": "PT",
+
+      "description": "Fixes Persian text and number display issues in AutoCAD.",
+
+      "min_acad_version": 2018,
+
+      "max_acad_version": null,
+
+      "dependencies": [],
+
+      "path": "packages/persian-text-fix",
+
+      "changelog": {
+        "1.3.0": "Improved number handling and RTL text processing.",
+        "1.2.0": "Added support for MTEXT.",
+        "1.1.0": "Performance improvements.",
+        "1.0.0": "Initial release."
+      }
+    }
+  ]
+}
